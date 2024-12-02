@@ -43,7 +43,8 @@ This project aims to develop a decision-support tool for hospital management usi
 ## **Dataset**  
 Dataset used: **Hospital Admissions Data**  
 - Contains detailed records of patient admissions, medical conditions, and outcomes.  
-- Preprocessed to clean missing values and enrich with derived features.  
+- Preprocessed to clean missing values and enrich with derived features. 
+- Link : https://www.kaggle.com/datasets/ashishsahani/hospital-admissions-data?resource=download 
 
 ---
 
