@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Stay Predictor</title>
+</head>
+<body>
+    <h1>Hospital Stay Predictor</h1>
+    <form id="predictionForm">
+        <label>Age:</label>
+        <input type="number" id="age" step="0.1" required><br><br>
+
+        <label>Type of Admission (0=OPD, 1=Emergency):</label>
+        <input type="number" id="type" min="0" max="1" required><br><br>
+
+        <label>Admission Month (0-1):</label>
+        <input type="number" id="month" step="0.1" required><br><br>
+
+        <label>Admission Season (1-4):</label>
+        <input type="number" id="season" min="1" max="4" required><br><br>
+
+        <label>Gender (0=Male, 1=Female):</label>
+        <input type="number" id="gender" min="0" max="1" required><br><br>
+
+        <button type="submit">Predict</button>
+    </form>
+
+    <h2 id="result"></h2>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
