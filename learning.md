@@ -48,6 +48,6 @@ Nous avons donc 2 mains lib a notre disposition a ce que je sache actuellement :
 - Moins universel que Pickle
 
 ## Pickle : 
--  Serialiser et deserialiser les objets python
+- Serialiser et deserialiser les objets python
 - Universel et fonctionnant presque avec tous les objets Python
 - Lent pour les objets volumineux dont les modeles ML ou de grands datasets

@@ -33,9 +33,10 @@ This project aims to develop a decision-support tool for hospital management usi
 - **Programming Languages:** Python  
 - **Libraries and Frameworks:**  
   - **Data Processing:** Pandas, NumPy  
-  - **Visualization:** Matplotlib, Plotly, Dash  
-  - **Machine Learning:** Scikit-learn, XGBoost  
-  - **Web Development:** Django, Dash  
+  - **Visualization:** Matplotlib, D3.js  
+  - **Machine Learning Model:** Linear regression  
+  - **Web Development:** Flask
+  - **Model Saving:** Joblib
 - **Tools:** Jupyter Notebook  
 
 ---
